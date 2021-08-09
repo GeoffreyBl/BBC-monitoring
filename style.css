@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Days One', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+body{
+    max-width: 375px;
+}
+.logo>i{
+    font-size: 100%;
+}
+.logo{
+    width: 75px;
+    height: 75px;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.bannerdiv:hover{
+    color: black;
+}
+.banner{
+    height: 95px;
+}
+.green{
+    background-color: rgb(0, 209, 0);
+}
+.red{
+    background-color: red;
+}
+.softred{
+    background-color: rgb(250, 39, 39);
+}
+.orange{
+    background-color: orange;
+}
+.profil{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.signaux{
+    width: 100%;
+    height: 30px;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    border-radius: 25%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navButton{
+    border-radius: 10px;
+    width: 45%;
+    height: 130px;
+    text-align: center;
+    max-width: 300px;
+    margin: 5px;
+    color: black !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+.navButton>p{
+    margin: 0;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.separate{
+    width: 40%;
+    margin: 15px;
+    margin-left: 30%;
+    border-bottom: 2px solid grey;
+}
+.colonne{
+    width: 85%;
+    text-align: center;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    margin: 10px;
+    border-radius: 6px;
+    padding: 5px;
+}
+.line>span{
+    font-size: 70%;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lastUpdate{
+    margin-top: -50px;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.titleadmin{
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.greenresult{
+    background-color: rgb(0, 209, 0);
+    padding: 2px;
+    border-radius: 5px;
+}
+.redresult{
+    background-color: red;
+    padding: 2px;
+    border-radius: 5px;
+}
+.addboutique{
+    position: absolute;
+    right : 5%;
+    top : 10%;
+    color:blue;
+}
+.retourserveurs{
+    height:20px;
+    width:20px;
+}
+.usernametitle{
+    margin-top: -10px;
+    font-size: 20px;
+}
