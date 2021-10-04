@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-$db = new PDO("mysql:host=ns6121283.ip-51-68-68.eu;dbname=monitor;port=3306", "geoffrey", "Wzpass1234!"); // Connexion à la BDD.
+$db = new PDO("mysql:host=XXXX;dbname=monitor;port=3306", "XXXX", "XXXX"); // Connexion à la BDD.
 
 $req = $db->query("SELECT max(lastupdate) FROM `log_serveur2`");
 $date = $req->fetch();
